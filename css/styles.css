@@ -9,6 +9,20 @@
             background-color: #2475ba;
             padding: 8px 16px;
         }
+        .navbar-brand img {
+            width: 40px;
+            height: auto;
+            margin-right: 10px;
+        }
+        .navbar-brand{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #d1e7dd !important;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #d1e7dd !important;
+        }
         .titulo {
             background-color: #6aace2;
             color: #fff;
@@ -19,6 +33,7 @@
             padding: 20px;
             margin: 20px 0;
             border-radius: 8px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
         }
         .lorem {
             display: flex;
@@ -36,6 +51,7 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             text-align: center;
             transition: transform 0.3s ease;
+            font-family: 'Times New Roman', Times, serif;
         }
         .bidon-3:hover {
             transform: scale(1.05);
@@ -62,11 +78,36 @@
             text-align: center;
             font-family: Georgia, 'Times New Roman', Times, serif;
             margin: 20px 0;
+            text-decoration: underline;
         }
         .contenedor-video {
             display: flex;
             justify-content: center;
             margin: 20px 0;
+        }
+        .contenedor-formulario {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 120px); 
+        }
+        
+        form {
+            max-width: 600px; 
+            width: 100%;
+            margin: 0 auto;
+        }
+        
+        footer {
+            padding: 1px 0; 
+            background-color: #638fbc;
+        }
+        
+        .social-icon {
+            width: 35px; 
+            height: 35px;
+            margin: 0 10px;
+            vertical-align: middle;
         }
         @media (max-width: 768px) {
             .lorem {
